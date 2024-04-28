@@ -4,7 +4,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
   ],
   overrides: [
     {
@@ -26,5 +26,8 @@ module.exports = {
   rules: {
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
+  },
+  settings: {
+    react: { version: "detect" },
   },
 };

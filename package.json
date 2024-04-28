@@ -71,5 +71,8 @@
       "prettier --write",
       "eslint --fix"
     ]
-  }
+  },
+  "ignorePatterns": [
+    "!.storybook"
+  ]
 }
